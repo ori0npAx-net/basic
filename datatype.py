@@ -29,6 +29,8 @@ print("not x:", not x)       # False
 
 # LIST
 fruits=["cherry","grape","apple"]
+vegs=["potato","carrot","cabbage"]
+val="cherry"
 
 print(fruits[1])        #acess as an index
 print(fruits[0:2])      #slicing
@@ -41,7 +43,10 @@ print(fruits)
 
 fruits.reverse()
 print(fruits)
-
+print(fruits+vegs)  #CONCATENATION of sequences 
+print(3*vegs)       # adding variables in itself for k no of times (k*s)
+print(val in s)     #containment check
+print(val not in s) #non-containment check
 
 # TUPLE
 t=(1,2,3,4,5)
@@ -84,12 +89,15 @@ print("age:",aadmi["age"])
 
 aadmi["age"]=25                #updated one key
 
-aadmi["city"]="karachi"         #new key added
+aadmi["city"]="karachi"         #new key added --> d[key]=value
 
 print(aadmi.keys())            #prints the keys
 print(aadmi.values())          #prints the values of the keys
 print(aadmi.items())           #prints keys and their values as tuple
 print(aadmi)                   #prints full dictionary
+del aadmi["name"]               #deletes a key in dict--> del d[key]
+print(aadmi)
+
 
                  #bonus
 print(list(aadmi.items())[0])       #dict ke items ko list banaya hai takey usko as an index acess kar sakon
@@ -112,7 +120,7 @@ print(ba)
 mv=memoryview(ba)   #memoryview kinda shows what is actually stored in th array
 print(mv[1])
 
-
+fyjvyu gu
 
 
 
