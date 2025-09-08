@@ -120,7 +120,6 @@ print(ba)
 mv=memoryview(ba)   #memoryview kinda shows what is actually stored in th array
 print(mv[1])
 
-fyjvyu gu
 
 
 
